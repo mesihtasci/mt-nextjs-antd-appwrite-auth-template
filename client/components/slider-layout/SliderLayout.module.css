@@ -1,0 +1,71 @@
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    color: var(--primaryColor);
+    justify-content: center;
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.logo>svg {
+    fill: var(--primaryColor);
+}
+
+.header {
+    padding: 0;
+    top: 0;
+    position: sticky;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white !important;
+    box-shadow: 0 0 2px rgb(0 0 0 / 10%);
+    z-index: 1;
+}
+
+.dropdown-button {
+    margin-right: 24px !important;
+    cursor: pointer;
+}
+
+.text-disabled {
+    color: var(--textColorSecondary) !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+
+.content {
+    background: white !important;
+    overflow: auto;
+}
+
+.side-navigation {
+    height: 100vh;
+    position: sticky !important;
+    top: 0;
+}
+
+
+main.ant-layout-content {
+    background: white !important;
+    overflow: auto;
+}

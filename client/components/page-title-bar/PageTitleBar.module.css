@@ -1,0 +1,12 @@
+.page-header__wrapper {
+    position: relative;
+}
+
+.page-header_background {
+    background: #b6d7ff99;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 300px;
+}

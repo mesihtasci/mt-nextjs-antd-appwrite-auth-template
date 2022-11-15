@@ -174,20 +174,15 @@ body {
   margin-left: 3rem !important;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  white-space: nowrap;
-  color: var(--primaryColor);
-  justify-content: center;
+.hidden {
+  display: none !important;
 }
 
-.logo > svg {
-  fill: var(--primaryColor);
+.ant-layout {
+  background-color: white;
 }
 
-.text-disabled {
-  color: var(--textColorSecondary) !important;
+.dashboard-card__height {
+  height: 100%;
+  min-height: 150px;
 }
