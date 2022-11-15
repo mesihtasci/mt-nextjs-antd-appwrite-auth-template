@@ -1,1 +1,1 @@
-# mt-nextjs-antd-appwrite-auth-template
+# A quickstart template with NextJS, AntDesign and Appwrite. Appwrite Authentication management is integrated.
